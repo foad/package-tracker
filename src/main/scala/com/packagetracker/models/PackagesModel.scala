@@ -8,5 +8,6 @@ final case class Address(
 final case class Package(
     id: String,
     status: PackageStatus,
-    destination: Address
+    destination: Address,
+    currentLocation: Address
 )
